@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+body {
+    background-color: #fff;
+    background-size: auto;
+    background-position: center;
+    /* Gambar default */
+}
+
+h1 {
+    color: #fff;
+}
+
+/*  */
+#countryList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.countryItem {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #191919;
+    color: #fff;
+    width: 13rem; /* Lebar card negara */
+    height: auto; /* Tinggi card negara */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+    transition: background-color 0.3s; /* Transisi warna latar belakang */
+    display: flex;
+}
+
+.countryItem:hover {
+    background-color: #333; /* Warna latar belakang yang berbeda saat hover */
+}
+
+.img-logo {
+    width: 2rem;
+    height: auto;
+}
+
+#countryDetails {
+    /* background-color: #fff;
+    min-height: 100vh; */
+    color: #fff;
+}
